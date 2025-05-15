@@ -14,7 +14,7 @@ menu    100 {
             //-- "Select RomData ..."
       10014    3 "ROMデータを選択"
             //-- "Open RomData Manager"
-      10015    4 "ROMデータマネージャーを開く"
+      10015    4 "ROMデータ マネージャーを開く"
     }
           //-- "Play via Kaillera..."
     10002    5 "Kailleraでプレイ"
@@ -265,7 +265,7 @@ menu    100 {
             //-- "Select aspect ratio (Vertical)"
       popup  144 "モニターのアスペクト比を選択(垂直方向)" {
               //-- "Normal CRT aspect ratio (landscape)"
-        10270  145 "ノーマルCRT(横画面)"
+        10270  145 "ノーマルCRT (横画面)"
               //-- "Normal LCD aspect ratio (landscape)"
         10271  146 "ノーマルLCD (横画面)"
               //-- "Widescreen CRT aspect ratio (landscape)"
@@ -273,13 +273,13 @@ menu    100 {
               //-- "Widescreen LCD aspect ratio (landscape)"
         10273  148 "ワイドLCD (横画面)"
               //-- "Normal CRT aspect ratio (portrait)"
-        10274  149 "ノーマルCRT(縦画面)"
+        10274  149 "ノーマルCRT (縦画面)"
               //-- "Normal LCD aspect ratio (portrait)"
         10275  150 "ノーマルLCD (縦画面)"
               //-- "Widescreen CRT aspect ratio (portrait)"
-        10276  151 "ワイドCRT(縦画面)"
+        10276  151 "ワイドCRT (縦画面)"
               //-- "Widescreen LCD aspect ratio (portrait)"
-        10277  152 "ワイドLCD(縦画面)"
+        10277  152 "ワイドLCD (縦画面)"
       }
             //-- "Mirrored vertical alignment"
       10194  154 "垂直方向に反転"
@@ -363,7 +363,7 @@ menu    100 {
       10664  194 ""
     }
           //-- "&Auto-Fire Rate"
-    popup  196 "自動連射速度(&A)" {
+    popup  196 "連射速度(&A)" {
             //-- "Slow"
       10260  197 "遅い"
             //-- "Medium"
@@ -1031,7 +1031,7 @@ menu    114 {
       11490   55 "イメージをSoftFXサイズに強制する"
     }
           //-- "Advanced settings"
-    popup   57 "上級設定" {
+    popup   57 "高度な設定" {
             //-- "Force &16-bit emulation"
       11491   58 "16-bitエミュレーションを強制"
             //-- "Hardware vertex processing"
@@ -1101,7 +1101,7 @@ dialog	  51 "ゲーム入力のマッピング" {
         //-- "OK"
       2	   0 ""
         //-- "Double-click an input to change its mapping, Check the macro to auto-fire"
-  65535	   2 "ダブルクリックで入力のマッピングを変更する、自動連射はマクロをチェック"
+  65535	   2 "ダブルクリックで入力のマッピングを変更する、連射はマクロをチェック"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
   65535	   5 "3つのドロップダウンボックスで選択し、適切なボタンをクリックします。"
         //-- "Save preset"
@@ -1715,7 +1715,7 @@ dialog	  84 "HardFX シェーダーオプション" {
 }
 
         //-- "ROMDATA Manager"
-dialog	  85 "ROMデータマネージャー" {
+dialog	  85 "ROMデータ マネージャー" {
         //-- "Play"
   21212	   1 "プレイ"
         //-- "Cancel"
@@ -1987,7 +1987,7 @@ string   518 ""
 string   520 "すべてのメモリーカードファイル"
 
         //-- "All Dat Files"
-string   522 "すべてのDatファイル"
+string   522 "すべてのDATファイル"
 
         //-- "Text Files"
 string   524 "テキストファイル"
@@ -2407,7 +2407,7 @@ string   878 "クイズ"
 string   880 "スポーツ"
 
         //-- "Sports / Football"
-string   882 "スポーツ / フットボール"
+string   882 "スポーツ / サッカー"
 
         //-- "Misc"
 string   884 "その他"
@@ -2503,10 +2503,10 @@ string  1012 "タイトル"
 string  1014 ""
 
         //-- "%s%sRomData Manager%sSelect Game"
-string  1020 "ROMデータマネージャーでゲームを選択"
+string  1020 "ROMデータ マネージャーでゲームを選択"
 
         //-- "Dat path"
-string  1022 "Datファイルパス"
+string  1022 "DATファイルパス"
 
         //-- "Romset"
 string  1024 "ROMセット"
@@ -2543,6 +2543,9 @@ string  1072 ""
 
         //-- "Scanning ROMs..."
 string  1076 "ROMをスキャン中"
+
+        //-- "Loading Icons..."
+string  1078 "アイコンを読込中"
 
         //-- "New cheat search started"
 string  1080 ""
@@ -2824,7 +2827,7 @@ string  1910 "kailleraclient.dllが見つかりません。"
 string  1912 "リストからドライバーが選択されていません。"
 
         //-- "No driver has been selected for slot 1."
-string  1914 "スロット1にドライバーが選択されていない。"
+string  1914 "スロット1にドライバーが選択されていません。"
 
         //-- "This game isn\'t working. Load it anyway?"
 string  1916 "このゲームは動作不能ですが、ロードしますか？"
